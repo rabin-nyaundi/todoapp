@@ -34,6 +34,8 @@ body{
 }
 #login_form{
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 #action_buttons .btn{
     justify-content: center;
@@ -74,7 +76,7 @@ span#hearts{
 } 
 
 
-@media (min-width:768px){
+@media (min-width:800px){
     #login_form{
         margin-top: 80px;
         border-radius: 5px;
