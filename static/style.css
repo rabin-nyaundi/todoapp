@@ -57,6 +57,7 @@ span#hearts{
 }
 
 #todo_row{
+    margin-top: 40px;
     padding: 30px;
 }
 #tasks_filter{
