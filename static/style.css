@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+
+html, body{
+    /* overflow-x: hidden; */
+
+    font-family: 'Lato', sans-serif;
+  }
+
+body{
+    box-sizing: border-box;
+    background-color: azure;
+    font-size: 1.2em;
+    width: 100%;
+    /* overflow: auto; */
+    position: relative;
+}
+.navbar{
+    z-index: 1;
+    box-shadow:  0 0 10px 0;
+}
+
+#login_head h4{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+#login_head h4 span{
+    font-size: 0.7em;
+    color: rgb(23, 23, 112);
+    padding: 20px;
+    margin: 20px auto;
+    letter-spacing: 2px;
+
+}
+#login_form{
+    width: 100%;
+}
+#action_buttons .btn{
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+span#hearts{
+    color: rgb(221, 30, 30);
+    font-size: 1.2em;
+    letter-spacing: 5px;
+    margin-left: 5px;
+}
+
+
+.header_title span{
+    font-style: oblique;
+    padding: 10px;
+    margin: 10px 20px;
+    color: blue;
+}
+
+#todo_row{
+    padding: 30px;
+}
+#tasks_filter{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+#tasks_filter > div{
+    /* padding-bottom: 20px;
+    padding-top: 40px;
+    width: 40px; 
+    background-color: red; */
+     padding: 5px; 
+} 
+
+
+@media (min-width:768px){
+    #login_form{
+        margin-top: 80px;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        width: 100%;
+        padding: 0px;
+    }
+    #tasks_filter{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    #tasks_filter > div{
+        padding-bottom: 20px;
+        padding-top: 40px;
+        width: 140px;
+    }
+}
