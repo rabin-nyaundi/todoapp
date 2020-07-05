@@ -15,7 +15,7 @@ html, body{
 body{
     box-sizing: border-box;
     background-color: azure;
-    font-size: 1.0em;
+    font-size: 0.8em;
     width: 100%;
     /* overflow: auto; */
     position: relative;
