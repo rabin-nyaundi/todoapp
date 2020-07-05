@@ -2,7 +2,7 @@ import os, datetime
 
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-DATABASE_URL = 'postgresql://admin:admin1@localhost/todo_app'
+DATABASE_URL = 'postgres://efvvjaukdmbgzw:1eb455921f6771b0b583712fa49965503faac249488f1f2e0b9fe94e9499db59@ec2-52-204-232-46.compute-1.amazonaws.com:5432/deg5jombc7ajc4o'
 
 db = SQLAlchemy()
 
