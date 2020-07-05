@@ -1,8 +1,8 @@
-import os, datetime, requests
+import os, datetime
 
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-DATABASE_URL = 'postgres://efvvjaukdmbgzw:1eb455921f6771b0b583712fa49965503faac249488f1f2e0b9fe94e9499db59@ec2-52-204-232-46.compute-1.amazonaws.com:5432/deg5jombc7ajc4o'
+DATABASE_URL = 'postgres://asppssgtggmvnx:a38a21e2dee1d265b47938a0330ee20a72dc74743110579e1ec890200e399cfe@ec2-3-215-83-17.compute-1.amazonaws.com:5432/d8nmura2t1ealo'
 
 db = SQLAlchemy()
 
