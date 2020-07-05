@@ -1,4 +1,4 @@
-import requests, datetime
+import requests, datetime, requests
 from models import *
 
 from sqlalchemy import and_
