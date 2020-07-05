@@ -1,15 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;700&family=Fondamento&family=Noto+Sans+JP:wght@300&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap'); */
+
+
+/* font-family: 'Domine', serif;
+font-family: 'Fondamento', cursive;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Open Sans', sans-serif; */
 
 html, body{
     /* overflow-x: hidden; */
-
-    font-family: 'Lato', sans-serif;
+    font-family: 'Domine', serif;
   }
 
 body{
     box-sizing: border-box;
     background-color: azure;
-    font-size: 1.2em;
+    font-size: 1.0em;
     width: 100%;
     /* overflow: auto; */
     position: relative;
@@ -17,6 +23,10 @@ body{
 .navbar{
     z-index: 1;
     box-shadow:  0 0 10px 0;
+}
+.navbar-brand{
+    font-family: 'Fondamento', cursive;
+    letter-spacing: 0.5rem;
 }
 
 #login_head h4{
