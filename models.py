@@ -2,9 +2,9 @@ import os, datetime
 
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
-DATABASE_URL = 'postgresql://admin:admin1@localhost/todo_app'
-# postgres://asppssgtggmvnx:a38a21e2dee1d265b47938a0330ee20a72dc74743110579e1ec890200e399cfe@ec2-3-215-83-17.compute-1.amazonaws.com:5432/d8nmura2t1ealo
+DATABASE_URL = 'postgres://asppssgtggmvnx:a38a21e2dee1d265b47938a0330ee20a72dc74743110579e1ec890200e399cfe@ec2-3-215-83-17.compute-1.amazonaws.com:5432/d8nmura2t1ealo'
 # 
+# postgresql://admin:admin1@localhost/todo_app
 
 db = SQLAlchemy()
 
