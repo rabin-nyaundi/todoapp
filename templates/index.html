@@ -52,7 +52,7 @@
             <table class="table table-striped">
                 <thead>
                     <tr>
-                        <th>#</th>
+                        <!-- <th>#</th> -->
                         <th scope="col">Task name{{id}}</th>
                         <th scope="col">Created at</th>
                         <th scope="col">Status</th>
@@ -62,7 +62,7 @@
                 <tbody>
                     {% for task in tasks %}
                     <tr>
-                        <th scope="row">{{task.id}}</th>
+                        <!-- <th scope="row">{{task.id}}</th> -->
                         <td>{{task.task}}</td>
                         <td>{{ task.created_at}}</td>
                         <td><a href="{{ url_for('edit', id = task.id)}}">{{ task.status}}</a></td>
