@@ -62,6 +62,7 @@ def login():
             return redirect(url_for('login'))
 
         session['user'] = user.email
+        flash("Logged in successfully","success")
         return redirect(url_for('index'))
 
     
